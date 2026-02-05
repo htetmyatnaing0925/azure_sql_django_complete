@@ -87,13 +87,15 @@ WSGI_APPLICATION = 'azure_project.wsgi.application'
 #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
 #     }
 # }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'bearlab-sql-db',
-        'USER': 'bearlab-admin',
-        'PASSWORD': 'P@ss1234',
-        'HOST': 'bearlab-sql-server.database.windows.net',
+        'NAME': 'free-sql-db-3965215',
+        'USER': 'naing-admin',
+        'PASSWORD': '09261364365Aa',
+        'HOST': 'naing-sql.database.windows.net',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'ODBC Driver 18 for SQL Server',
